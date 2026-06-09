@@ -121,53 +121,6 @@ Supports:
 
 ---
 
-## Project Structure
-
-```text
-enterprise-rag/
-│
-├── app.py
-├── requirements.txt
-├── .env
-│
-├── data/
-│   ├── pdfs/
-│   ├── csvs/
-│   └── logs/
-│
-├── policies/
-│   ├── roles.json
-│   └── users.json
-│
-├── ingestion/
-│   ├── __init__.py
-│   ├── pdf_loader.py
-│   ├── csv_loader.py
-│   ├── json_loader.py
-│   └── build_vector_db.py
-│
-├── retrieval/
-│   ├── __init__.py
-│   ├── retriever.py
-│   ├── router.py
-│   ├── hybrid_search.py
-│   └── rbac.py
-│
-├── generation/
-│   ├── __init__.py
-│   ├── prompt.py
-│   └── rag_chain.py
-│
-├── utils/
-│   ├── confidence.py
-│   └── citations.py
-│
-└── vectorstore/
-    └── chroma_db/
-```
-
----
-
 ## Installation
 
 ### Clone Repository
@@ -392,6 +345,3 @@ AI/ML Engineer | Computer Vision | NLP | Retrieval-Augmented Generation (RAG)
 
 ---
 
-## License
-
-MIT License
