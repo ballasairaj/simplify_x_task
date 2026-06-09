@@ -1,0 +1,10 @@
+[
+  {
+    "event":"login_failure",
+    "user":"john"
+  },
+  {
+    "event":"permission_denied",
+    "user":"bob"
+  }
+]

@@ -1,0 +1,104 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables
+
+.env
+
+# IDE
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
+
+# Python Build Files
+
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Streamlit
+
+.streamlit/secrets.toml
+
+# Chroma Vector Database
+
+vectorstore/chroma_db/
+chroma/
+*.sqlite3
+
+# Model Cache
+
+.cache/
+huggingface_cache/
+
+# Temporary Files
+
+tmp/
+temp/
+*.tmp
+
+# Data Files (Optional)
+
+# Uncomment if datasets should not be pushed
+
+# data/pdfs/
+
+# data/csvs/
+
+# data/logs/
+
+# Mistral/OpenAI Keys
+
+*.pem
+*.key
+credentials.json
+
+# PyTorch Models
+
+*.pt
+*.pth
+*.ckpt
+
+# FAISS Indexes
+
+*.faiss
+
+# Milvus Data
+
+milvus/
+
+# Testing
+
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# Runtime Files
+
+audit.log
+debug.log

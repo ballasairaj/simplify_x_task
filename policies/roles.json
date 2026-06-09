@@ -1,0 +1,17 @@
+{
+  "admin": [
+    "finance",
+    "engineering",
+    "hr",
+    "security"
+  ],
+
+  "manager": [
+    "engineering",
+    "reports"
+  ],
+
+  "employee": [
+    "reports"
+  ]
+}
